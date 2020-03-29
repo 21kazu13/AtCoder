@@ -1,0 +1,11 @@
+def ii():return int(input())
+def iim():return map(int,input().split())
+def iil():return list(map(int,input().split()))
+def ism():return map(str,input().split())
+def isl():return list(map(str,input().split()))
+
+a,b,c = iim()
+ab = abs(a-b)
+bc = abs(c-b)
+ca = abs(a-c)
+print(ab+bc+ca-max(ab,bc,ca))
