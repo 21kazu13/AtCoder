@@ -1,5 +1,0 @@
-def ii():return int(input())
-def iim():return map(int,input().split())
-def iil():return list(map(int,input().split()))
-a,b,c = iim()
-print(2*(a*b+b*c+c*a))
