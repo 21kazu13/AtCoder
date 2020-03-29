@@ -1,6 +1,9 @@
 def ii():return int(input())
 def iim():return map(int,input().split())
 def iil():return list(map(int,input().split()))
+a,b = iim()
 
-n,a,b = iim()
-print(min(a,b),max(0,a+b-n))
+if b%a == 0:
+    print(a+b)
+else:
+    print(b-a)

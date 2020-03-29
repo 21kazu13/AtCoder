@@ -1,6 +1,9 @@
 def ii():return int(input())
 def iim():return map(int,input().split())
 def iil():return list(map(int,input().split()))
+m,d = iim()
 
-n,a,b = iim()
-print(min(a,b),max(0,a+b-n))
+if m%d == 0:
+    print('YES')
+else:
+    print('NO')

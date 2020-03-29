@@ -1,6 +1,9 @@
 def ii():return int(input())
 def iim():return map(int,input().split())
 def iil():return list(map(int,input().split()))
+n=ii()
 
-n,a,b = iim()
-print(min(a,b),max(0,a+b-n))
+if n%2 == 0:
+    print(1/2)
+else:
+    print((n+1)//2/n)

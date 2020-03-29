@@ -1,6 +1,7 @@
 def ii():return int(input())
 def iim():return map(int,input().split())
 def iil():return list(map(int,input().split()))
+a,b,c = iim()
 
-n,a,b = iim()
-print(min(a,b),max(0,a+b-n))
+if a<c<b or b<c<a: print('Yes')
+else: print('No')
