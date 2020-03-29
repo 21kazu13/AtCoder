@@ -6,6 +6,16 @@ python3 code for AtCoder
 
 ホントは赤って言いたい！難しそう！
 
+## まだお勉強outputしてないやつら
+
+- https://atcoder.jp/contests/abc075/submissions/11341923
+- DP
+- bit全探索
+- stdin.readline()の使い方（はやい？）
+- 剰余のところ
+
+## コンテストの感想
+
 ### 20/03/28 ABC160
 
 日記に過去問書いてもしょうがないと思いコンテストのみ書いてく。
