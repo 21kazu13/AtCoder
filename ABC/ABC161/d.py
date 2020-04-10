@@ -1,5 +1,4 @@
 k = int(input())
-
 def forndigit(l1):
     l = []
     for i in l1:
