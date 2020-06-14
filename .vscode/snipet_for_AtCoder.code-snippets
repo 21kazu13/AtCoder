@@ -16,7 +16,7 @@
 	// 	"description": "Log output to console"
 	// }
 	
-	"Print to console": {
+	"std in and out": {
 		"prefix": "prep",
 		"body": [
 			"def ii():return int(input())",
@@ -24,5 +24,33 @@
 			"def iil():return list(map(int,input().split()))",
 		],
 		"description": "template for AtCoder in python3"
-	}	
+	},
+	"bfs": {
+		"prefix": "bfs",
+		"body": [
+			"from collections import deque",
+			"def bfs(u,n,d):",
+			"\t'''",
+			"\tBFS:O(N*(edge number))",
+			"\t@params",
+			"\t\tint u: initial node ",
+			"\t\tint n: number of total nodes ",
+			"\t\tdict d: graph of all nodes ",
+			"\t\t\tsample ",
+			"\t\t\td = {0:[1,3],3:[2,4,5]} ",
+			"\t@returns",
+			"\t\tlist ans: list of depthes of each node",
+			"\t'''",
+			"\tqueue = deque([u])",
+			"\tans = [-1] * (n+1)",
+			"\twhile queue:",
+			"\t\tv = queue.popleft()",
+			"\t\tfor i in d[v]:",
+			"\t\t\tif ans[i] == -1:",
+			"\t\t\t\tans[i] = v",
+			"\t\t\t\tqueue.append(i)",
+			"\treturn ans"
+		],
+		"description": "bfs template"
+	}
 }
