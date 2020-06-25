@@ -14,6 +14,7 @@ python3 code for AtCoder
 - bit全探索
 - stdin.readline()の使い方（はやい？）
 - 大きい数の剰余
+- 遷移の場合の数を数え上げるとき、重複をしないような条件付け：[参考][7]
 
 [1]:https://atcoder.jp/contests/abs/tasks
 [2]:https://qiita.com/bee2/items/4ab87d05cc03d53e19f9
@@ -21,8 +22,25 @@ python3 code for AtCoder
 [4]:https://paiza.hatenablog.com/entry/2017/08/01/Python3%E3%81%A7%E5%B7%A8%E5%A4%A7%E3%81%AA%E6%B5%AE%E5%8B%95%E5%B0%8F%E6%95%B0%E8%A8%88%E7%AE%97%E3%81%AE%E7%B5%90%E6%9E%9C%E3%81%8C%E5%A4%89%E3%81%A0%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7%E7%90%86
 [5]:https://atcoder.jp/contests/abc075/submissions/11341923
 [6]:https://qiita.com/OKCH3COOH/items/f0c5c4681bc30dddf7f4
+[7]:https://www.hamayanhamayan.com/entry/2020/06/23/193342
 
 ## コンテストの感想
+
+### 20/06/14 ABC171
+
+Eが精進の成果。CもWAもらったけど落ち着いて修正できて良かった。
+outputはできてなかったけど、上でメモっておいて一読した甲斐があった。
+
+#### 結果
+
+|A|B|C|D|E|F|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|AC|AC|AC+1WA|AC|AC|timeup|
+|0'50"|1'36"|24'11"|31'47"|42'34"||
+
+#### 復習したい
+
+- 今回のFや、AGC046のBとか推移するものの最終系の場合の数を考えるときに、一意になる条件の言い換えに慣れる必要がありそう
 
 ### 20/06/14 ABC170
 
